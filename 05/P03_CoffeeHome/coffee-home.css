@@ -1,0 +1,74 @@
+* {
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+  }
+
+body{
+    background-image: url("image/cafe-home.jpg");
+}
+
+header h1{
+    text-align: center;
+    font-family: 'serif';
+    font-size: 42px;
+    color: #737373;
+    letter-spacing: 3.7px;
+}
+
+aside ol li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+aside ol{
+    list-style: decimal;
+    color: #ffffff;
+}
+
+aside{
+    display: inline-block;
+}
+
+aside ul{
+    display: inline;
+}
+
+main{
+    margin: 0 auto;
+    width: 580px;
+    margin-top: -200px;
+    margin-left: 257px; 
+}
+
+p{
+    color: #CCCCCC;
+    text-align: justify;
+}
+
+article header h2:nth-of-type(1),
+article header h2:nth-of-type(2),
+article header h2:nth-of-type(3){
+    color: #CCCCCC;
+    font-size: 21px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+article:last-of-type{
+    	background-color: rgba(143, 143, 126, 0.16);
+        margin-top: 45px;
+        height: 230px;
+}
+
+article:last-of-type h2::before{
+ content: '\a' attr(title);
+ white-space: pre;
+}
+
+article:last-of-type p::first-line{
+    color: #a6f016;
+}
+
+article:last-of-type p{
+      color:#22b6fd;
+}
