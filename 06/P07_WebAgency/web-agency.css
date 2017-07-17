@@ -1,0 +1,97 @@
+body{
+    background-color: #24437C;
+}
+
+nav ul{
+    list-style: none;
+    display: inline;
+    float:right;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+nav ul li{
+    display: inline;
+    padding-left: 20px;
+    text-transform: capitalize;
+}
+
+nav ul li:last-of-type a{
+    padding-right: 20px;
+    text-align: center;
+}
+
+nav ul li:last-of-type a{
+    background-color: #3DC1EF;
+    border-radius: 5px 5px 5px 5px;
+}
+
+h1.header-title{
+     margin-top: 140px;
+     color:white;
+     text-align: center;
+     text-transform: capitalize;
+     font-family: 'Lato', sans-serif;
+     font-weight: 100;
+     font-style: normal;
+     letter-spacing: 3px;
+}
+
+h2.header-subtitle{
+    color: #456E92;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#button-container{
+    background-color: #3DC1EF;
+    width: 100px;
+    color: white;
+    margin: 0 auto;
+    height: 30px;
+    border-radius: 5px 5px 5px 5px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+ul.header-services li{
+    display: inline-block;
+}
+
+ul.header-services{
+    align-items: center;
+    display: inline-block;
+    margin:0 auto;
+    padding-right: -100px;
+    padding-top: 50px;
+}
+
+article{
+    width: 270px;
+    display: inline-block;
+    color:white;
+    margin-left: 120px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300px;
+}
+
+article:hover{
+    background-color: #3DC1EF;
+}
+
+.service-link:before{
+    content:"\a\a";
+    white-space: pre;
+}
+
+.service-link{
+    text-decoration: none;
+    color: white;
+}

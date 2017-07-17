@@ -1,0 +1,142 @@
+body{
+    background-image: url(images/dark-wood.jpg);
+}
+
+header{
+    background-image: url(images/header-page.jpg);
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    width: 850px;
+    text-align: right;
+    margin-top: -50px;
+}
+
+header h1{
+    padding-top: 40px;
+    margin-right: 10px;
+    font-size: 50px;
+}
+
+nav ul li{
+    display:inline;
+    padding-left: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+nav ul li:first-of-type a{
+    color:black;
+}
+
+nav{
+   background-image: url(images/header-page.jpg);
+   width: 850px;
+   margin: 0 auto;
+   margin-top:-13px;
+}
+
+main{
+    background-color:white;
+    margin: 0 auto;
+    width: 850px;
+    margin-top:-12px;
+}
+
+section img{
+    float: left;
+    padding-top: 25px;
+}
+
+.popular-recipes{
+    float: right;
+}
+
+h2{
+    color: gray;
+}
+
+h3{
+    color: goldenrod;
+    margin-top: -17px;
+}
+
+.popular-recipes a{
+        color: palevioletred;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    padding-right: 15px;
+    float:left;
+}
+
+.courses figcaption{
+    width: 100px;
+    color:gray;
+}
+
+article h2, article h3,article p{
+    width: 270px;
+    margin-left: 350px;
+}
+
+article div{
+    margin-top: -210px;
+}
+
+p::after{
+    content: '\a\a\a\a\a\a';
+  white-space: pre;
+}
+
+.popular-recipes h2{
+    width: 100px;
+    color: palevioletred;
+    font-family: 'Lato', sans-serif;
+}
+
+.popular-recipes h2, .popular-recipes ul{
+    list-style: none;
+    width: 130px;
+    font-family: 'Lato', sans-serif;
+}
+
+.popular-recipes ul{
+    list-style: none;
+}
+
+section.popular-recipes{
+    margin-top: -530px;
+    margin-right: 50px;
+}
+
+.popular-recipes ul li{
+   margin-left: -30px;
+   padding-bottom: 30px;
+}
+
+.popular-recipes ul li:hover{
+    box-sizing: margin-box;
+    background-color: rgba(25, 20, 20, 0.22);
+}
+
+p{
+    color:gray;
+}
+
+footer{
+    background-color: grey;
+    text-align: center;
+    color: white;
+    margin-top: -14px;
+}
+

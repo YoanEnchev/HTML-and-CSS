@@ -1,0 +1,121 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v13/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v13/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v13/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v13/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v13/R4a6fty3waPci7C44H8AjvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v13/tI4j516nok_GrVf4dhunkg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body{
+    background-color:#333333 ;
+}
+
+main{
+    background-image: url(img/food-image-bg.png);
+    width: 1300px;
+    height: 700px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    border-radius:30px 60px 30px 30px;
+}
+
+h1{
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: right;
+    font-size:60px;
+    margin-right: 200px;
+    padding-top: 50px;
+    font-family:"Lato", sans-serif;
+}
+
+.recipies-info p{
+    -webkit-flex-direction: row-reverse;
+    font-size: 20px;
+    display: inline;   
+}
+
+p{
+    color:#ffffff;
+    font-size: 16px;
+}
+
+p span{
+    color: #b5c640;
+}
+
+.recipies-info{
+    margin-top: -100px;
+    margin-left: 70px;
+}
+
+.recipies-info p{
+    margin-left: 20px;
+}
+
+.btn-primary{
+    color: #ffffff;
+    background-color: #b5c640;
+    width:150px;
+    height: 30px;
+    border-radius: 30px 30px 30px 30px;
+    border:none;
+    margin-top: 15px;
+    margin-left:280px; 
+}
+
+li{
+    width: 630px;
+    color: #ffffff;
+    padding-top:25px;
+}
+
+ul{
+    margin-left: 450px;
+    list-style-type: none;
+}
+
+.btn-primary{
+    cursor: pointer;
+}
