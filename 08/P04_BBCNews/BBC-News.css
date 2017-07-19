@@ -1,0 +1,42 @@
+main{
+    width: 890px;
+    font-family: 'Calibri Light', Verdana, sans-serif;
+    border: 1px solid #a5b2b3;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+article{
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.last{
+     margin-right: 0px;
+}
+
+img{
+    width: 200px;
+}
+
+.first{
+    margin-left: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-family: Verdana;
+    font-weight: lighter;
+    color: #414F5C;
+}
+
+img:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}

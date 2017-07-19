@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body{
+    font-family: "Open Sans", Arial,"Comfortaa", sans-serif;
+    font-size: 14px;
+}
+
+ul{
+    list-style: none;
+}
+
+aside{
+    background-color: white;
+}
+
+aside img{
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+}
+
+aside h2{
+    font-family: "Comfortaa";
+    text-align: center;
+}
+
+aside{
+    width: 200px;
+    float:left;
+    margin-right: 20px;
+    height: 1100px;
+}
+
+aside p{
+    text-transform: uppercase;
+    color: #b1bfc6;
+    text-align: center;
+}
+
+aside ul{
+    text-transform: uppercase;
+    color: #b1bfc6;
+}
+
+aside ul li{
+    padding-bottom: 20px;
+}
+
+section h1{
+    font-size: 30px;
+    font-weight: 300;
+    display: inline-block;
+}
+
+section h1 span{
+    color: #b1bfc6;
+}
+
+button{
+    float: right;
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: #FF7739;
+    color: #f3f5f7;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    margin-top:25px;
+}
+
+h3{
+    text-transform: capitalize;
+    position: relative;
+    left: 27px;
+}
+
+p{
+    text-transform: uppercase;
+    position: relative;
+    top:-330px;
+    right: -20px;
+}
+
+main{
+    background-color: #f3f5f7; 
+}
+
+main div{
+    background-color: white;
+    height: 320px;
+    display: inline-block;
+    bottom: -167px;
+    margin-left: 30px;
+}
+
+main div img{
+    width: 100%;
+    display: inline-block;
+    padding-top: 50px;
+    position: relative;
+    top: -330px;
+}
+
+.adress{
+    position: relative;
+    top: -10px;
+    left: 27px;
+}
+
+section{
+    height: 520px;
+}
+
+section div{
+    position: relative;
+    top: 20px;
+    box-shadow: 8px 6px 17px -1px rgba(0,0,0,0.26);
+}
+
+.status{
+    width: 100px;
+    background-color: #68bc69;;
+    height: 30px;
+    width: 80px;
+    position: absolute;
+    top: 60px;
+    left: -60px;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#draft, #draft2{
+    background-color: #91a5af;
+}
+
+#rented{
+    background-color: #B8C5CD;
+}
+
+.rent{
+    background-color: #FAFBFD;
+    color: #b1bfc6;
+}
+
+.name{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding-bottom: 10px;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #384850;
+}
+
+button:hover{
+    color: #FF7739;
+    border: 2px solid #FF7739;
+    background-color: #f3f5f7;
+}

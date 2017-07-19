@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'OpenSans-ExtraBold';
+  src:  url('fonts/OpenSans-ExtraBold.ttf');
+}
+
+body{
+    background-color: #F0F0E8;
+}
+
+header h1{
+    color: #009288;
+    font-size: 56px;
+    text-align: center;
+    font-family: OpenSans-ExtraBold;
+    font-weight: bold;
+}
+
+header h4{
+    text-align: center;
+    color: #7E7F81;
+    font-size: 16px;
+    font-family: Helvetica;
+    --margin-top: 45px;
+}
+
+header h3{
+    text-align: center;
+    color: #7E7F81;
+    font-size: 16px;
+    font-family: OpenSans-ExtraBold;
+    margin-bottom: 25px;
+}
+
+article{
+    display: inline-block;
+    width: 210px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+main{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+article img{
+    margin: 0 auto;
+    color: #7E7F81;
+}
+
+article p{
+    width: 170px;
+    color: #7E7F81;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+article h1{
+    color: #7E7F81;
+    font-family: OpenSans-ExtraBold;
+}
+
+article:hover{
+    background-color: #F6F6F6;
+    border-left: 10px solid #009288;
+}
+
+#first{
+    margin-left: 40px;
+}
