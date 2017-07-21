@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+html body header{
+    background-image: url(images/Layer-759_02.jpg);
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav{
+    background-color: #BA925E;
+    color: white;
+    margin: 0 auto;
+    height: 60px;
+    line-height: 60px;
+    width: 1100px;
+    position: relative;
+    bottom: -20px;
+    opacity: 0.9;
+}
+
+header nav ul{
+    list-style: none;
+    margin: 0 auto;
+}
+
+header nav ul li{
+    display: inline;
+    margin-right: 100px;
+}
+
+li#first{
+    margin-left: 39px;
+}
+
+#last{
+    margin-right:0px;
+}
+
+header h1, header p{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header h1{
+    text-transform: uppercase;
+    margin-top: 110px;
+    font-family: sans-serif;
+    font-size: 55px;
+}
+
+header p{
+    width: 300px;
+    font-size: 20px;
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
+
+header button{
+    margin: 0 auto;
+    width: 140px;
+    height: 45px;
+    margin-left: calc((100% - 140px)/2);
+    color:white;
+    background-color: #080820;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-radius: 10px;
+    border: none;
+}
+
+header button span{
+    color: #BD998B;
+    font-family: awesome;
+    font-weight: bold;
+}
+
+header button:hover, header button:hover span{
+    background-color: #C79D63;
+    color: black;
+    cursor: pointer;
+}
+
+main div.industries{
+   margin: 0px auto;
+   width: 1349px;
+}
+
+main div.industries div.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    float: left;
+    margin-right: 25px;
+}
+
+main div.industries article{
+    display: inline-block;
+}
+
+main div.industries h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: Montserrat;
+}
+
+main div.industries p{
+    margin-left: 75px;
+}
+
+main div.industries article{
+    margin-right: 25px;
+    vertical-align: top;
+    width: 407px;
+}
+
+main div.industries section{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+main div.industries section article.last-article{
+    margin-right: 0px;
+}
+
+section.banner{
+    background-image: url(images/steel-bg.jpg);
+    height: 135px;
+    opacity: 0.4;
+    background-size: cover;
+    line-height: 135px;
+    text-align: center;
+    font-size: 25px;
+}
+
+p#orange{
+    color: #BA740D;
+    margin-bottom: 0px;
+    position: relative;
+    top: -120px;
+    font-family: Montserrat;
+    opacity: 1;
+    font-size: 25px;
+    text-align: center;
+}
+
+p#black{
+    position: relative;
+    top: -140px;
+    font-family: Montserrat;
+    color: black;
+    opacity: 1;
+    font-size: 25px;
+    text-align: center;
+}
+
+section.traders{
+    background-image: url(images/darker.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -136px;
+    height: 355px;
+    color: white;
+    font-family: sans-serif;
+}
+
+section.traders h1{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: -50px;
+}
+
+section.traders article{
+    width: 340px;
+    height: 170px;
+    border: 2px solid #B59F87;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+    position: relative;
+    bottom: -50px;
+}
+
+section.traders article h3{
+    text-align: center;
+}
+
+section.traders article p{
+    margin-right: 18px;
+    margin-left: 18px;
+}
+
+
+section.traders #first_article{
+     margin-left: calc((100% - 1122px)/2);
+}
+
+section.consulting-woman{
+    background-image: url(images/consulting-woman.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 535px;
+    margin-top: -16px;
+}
+
+section.consulting-woman article.testimonial-info{
+    float: right;
+    width: 580px;
+    height: 470px;
+    background-color: white;
+    opacity: 0.7;
+    margin-right: 30px;
+    margin-top: 35px;
+}
+
+section.consulting-woman article.testimonial-info p{
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+section.consulting-woman article.testimonial-info p::before{
+    content: open-quote;
+    padding-right: 5px;
+    color: #B28B42;
+    font-size: 25px;
+}
+
+section.consulting-woman article.testimonial-info p::after{
+    content: close-quote;
+    padding-left: 5px;
+    color: #B28B42;
+    font-size: 25px;
+}
+
+section.consulting-woman article.testimonial-info div{
+    margin: 0 auto;
+    color: white;
+    background-color: #080820;
+    width: 85%;
+    height: 60%;
+}
+
+section.consulting-woman article.testimonial-info div h4{
+    float: right;
+    color: #747682;
+    position: relative;
+    top: -15px;
+    font-family: Montserrat;
+}
+
+section.consulting-woman article.testimonial-info div h2{
+    float: left;
+    color: white;
+    margin-left: 15px;
+    font-family: Montserrat;
+}
+
+section.partners{
+    height: 125px;
+    margin: 0 auto; 
+    margin-left: calc((100% - 972px)/2);
+}
+
+section.partners img{
+    margin: 0 auto;
+    vertical-align: middle;
+    margin-top: 25px;
+}
+
+div.info-socials-container, div.extra-links, div.instagram-widget{
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer{
+    background-color: #080820;
+    color: white;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer div.info-socials-container li{
+    width: 215px;
+    padding-bottom: 15px;
+}
+
+footer div.info-socials-container ul.social-media li div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #080820;
+    background-color: #84828F;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+}
+
+footer div.info-socials-container ul.social-media li{
+    display: inline-block;
+    width: 50px;
+}
+
+footer div.info-socials-container{
+        margin-left: 0%;
+}
+
+footer ul.part-one{
+    display: inline-block;
+    width: 300px;
+}
+
+footer div.extra-links ul li{
+    color: #AB8B7E;
+    padding-bottom: 10px;
+}
+
+footer div.extra-links ul.part-two{
+    display: inline-block;
+    position: relative;
+    left: 130px;
+    top: -200px;
+     margin-right: 4.23%;
+}
+
+footer div.extra-links{
+    width: 360px;
+    margin-left: 4.23%;
+}
+
+footer ul.social-media{
+    float: right;
+}
+
+footer div.info-socials-container{
+    width: 300px;
+    margin-left: calc((100% - 1204px)/2.35);
+}
+
+footer .row-1 img, .row-2 img{
+    margin-right: -5px;
+}
+
+div.extra-links{
+    margin-right: 4.23%;
+}
