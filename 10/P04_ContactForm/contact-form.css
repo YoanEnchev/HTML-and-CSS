@@ -1,0 +1,80 @@
+body{
+    font-family: Georgia, "Times New Roman", serif;
+    color: #888;
+}
+
+form{
+    background: #F7F7F7;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 600px;
+}
+
+form input{
+    display: inline-block; 
+}
+
+datalist{
+    display: inline-block;    
+}
+
+label{
+    display: inline; 
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+textarea,  input, select {
+    width: 400px;
+    border: 2px solid #EAEAEA;
+    height: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+textarea{
+    height: 100px;
+}
+
+.up{
+    position: relative;
+    top: -100px;
+    margin-left: 39px;
+}
+
+.go-right{
+    margin-left: 47px;
+    margin-bottom: 30px;
+}
+
+button{
+    color: white;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    background: #E27575;
+    border: none;
+    box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.48);
+    border-radius: 5px;
+    margin-left: 117px;
+    margin-bottom: 30px;
+}
+
+hr{
+    width: 95%;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px auto;
+}
+
+h1,p{
+    margin-left: 70px;
+}
+
+p{
+    margin-top: -25px;
+    font-weight: bold;
+    font-size: 15px;
+}

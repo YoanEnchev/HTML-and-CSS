@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+body {
+    background: #927057;
+    color: white;
+    font-family: Oxygen;
+}
+
+form {
+    background: #D5C395;
+}
+
+div.image-container{
+    margin: 0 auto;
+    width: 198px;
+    height: 183px;
+    border: 5px solid #D5C395;
+}
+
+header>img{
+    margin-left: calc(50% - 34px);
+    margin-top: 30px;
+}
+
+form{
+    width: 533.188px;
+    margin: -28px auto;
+    align-items: center;
+}
+
+form h1{
+    position: relative;
+    bottom: -50px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+input{
+    display: block;
+    box-sizing: border-box;
+    background-color: #EFE1C4;
+    border: none;
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 40px;
+    margin-top: 20px;
+}
+
+button{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 23px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+    color: #D5C395;
+    background-color: #927057;
+    text-align: center;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main img{
+    position: relative;
+    bottom: -20px;
+    right: 55px;
+    padding-left: 100px;
+    height: 15px;
+    width: 15px;
+}
+
+main form{
+    position: relative;
+    min-width:385.594px;
+    width: 533.188px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+    width: 40%;
+    margin: 50px auto;
+}
+
+i{
+    color: black;
+    position: relative;
+    bottom: -38px;
+    right: -70px;
+}

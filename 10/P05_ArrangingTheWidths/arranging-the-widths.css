@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    color: #2D2D2D;
+}
+
+fieldset{
+    width: 300px;
+    color: #2D2D2D;
+}
+
+label, input,textarea, select{
+    display: block;
+    width: 160px;
+    margin-bottom: 2px;
+}
+
+textarea{
+    height: 100px;
+}
