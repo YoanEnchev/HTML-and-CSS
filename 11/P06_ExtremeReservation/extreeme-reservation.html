@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Extreme Sports</title>
+    <link rel="stylesheet" type="text/css" href="extreeme-reservation.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li id="first">
+                    <img src="images/paraglider-icon.png" />
+                    <h2>Paragliding</h2>
+                </li>
+                <li>
+                    <img src="images/sky-diver.png" />
+                    <h2>Skydiving</h2>
+                </li>
+                <li>
+                    <img src="images/climbing.png" />
+                    <h2>Climbing</h2>
+                </li>
+                <li>
+                    <img src="images/about-us.png" />
+                    <h2>About Us</h2>
+                </li>
+            </ul>
+        </nav>
+
+        <fieldset id="personal-info">
+            <legend align="center">Personal Info</legend>
+            <br />
+
+            <div class="field">
+                <img src="images/user1.png" />
+                <input type="text" placeholder="Enter your full name" />
+            </div>
+
+            <div class="field">
+                <img src="images/phone.png" />
+                <input type="text" placeholder="Enter a phone number" />
+            </div>
+
+            <div class="field">
+                <img src="images/email.png" />
+                <input type="text" placeholder="Enter a valid e-mail" />
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend align="center">Flight Info</legend>
+            <p id="first-time">Are flying for first time?</p>
+            <section class="yes-no">
+                <input type="radio" />Yes
+                <input type="radio" />No
+            </section>
+            <p id="choose-date">Choose Destination</p>
+            <select>
+                <optgroup label="Bulgaria">
+                    <option>Dobrostan</option>
+                    <option>Sopot</option>
+                    <option>Sofia</option>
+                    <option>Bourgas</option>
+                </optgroup>
+
+                <optgroup label="Rest of the world">
+                    <option>Nepal</option>
+                    <option>Turkey</option>
+                    <option>France</option>
+                </optgroup>
+            </select>
+
+            <p id="date">Choose Date</p>
+            <input placeholder="dd/mm/yyyy" />
+        </fieldset>
+    </div>
+    <button id="clear">Clear</button>
+    <button id="send">Send</button>
+</body>
+</html>

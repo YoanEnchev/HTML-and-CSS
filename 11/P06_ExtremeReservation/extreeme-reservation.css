@@ -1,0 +1,171 @@
+body{
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, "Helvetica", sans-serif;
+    color: #276A9F;
+    padding: 20px 70px;
+}
+
+nav ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+nav ul li{
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 53px;
+    margin-right: 15px;
+    padding-right: 10px;
+}
+
+#first{
+    background: #70A7CE;
+}
+
+nav h2{
+    display: inline;
+    position: relative;
+    top: -10px;
+}
+
+nav img{
+    display: inline-block;
+}
+
+fieldset{
+    font-size: 22px;
+    border-radius: 15px;
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    height: 300px;
+    border: 2px solid #366591;
+}
+
+input[type=text], input[placeholder="dd/mm/yyyy"]{
+    height: 25px;
+    border: 1px solid #356596;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    background: white;
+    opacity: 0.4;
+    font-size: 20px;
+    color: #356596;
+    margin-top: 20px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #356596;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #356596;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #356596;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #356596;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #356596;
+}
+
+p{
+    text-align: center;
+}
+
+section.yes-no{
+    width: 122px;
+    margin: 0 auto;
+    position: relative;
+    top: -15px;
+}
+
+select{
+    height: 50px;
+    border: 1px solid #356596;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 90%;
+    background: white;
+    opacity: 0.4;
+    font-size: 20px;
+    position: relative;
+    top: -50px;
+    margin-left: 15px;
+    vertical-align: bottom;
+    color: #356596;    
+}
+
+optgroup, option{
+    background: #BEE0E9;
+}
+
+#choose-date{
+    position: relative;
+    top: -35px;
+}
+
+#date{
+    position: relative;
+    top: -65px;
+}
+
+input[placeholder="dd/mm/yyyy"]{
+    position: relative;
+    top: -100px;
+    margin-left: 15px;
+}
+
+button{
+    padding: 15px 25px;
+    background: transparent;
+    border-radius: 25px;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    bottom: -20px;
+    right: -550px;
+}
+
+button#clear{
+    border: 2px solid red;
+    color: red;
+}
+
+button#send{
+    border: 2px solid greenyellow;
+    color: greenyellow;
+}
+
+button#clear:hover{
+    background: #B40000;
+    color: white;
+    cursor: pointer;
+}
+
+button#send:hover{
+    background: #00B200;
+    color: white;
+    cursor: pointer;
+}
+
+li:hover{
+    background: #70A7CE;
+    cursor: pointer;
+}
+
+#personal-info img{
+    position: relative;
+    right: -40px;
+    bottom: -5px;
+}

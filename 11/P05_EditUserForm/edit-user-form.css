@@ -1,0 +1,121 @@
+body{
+    background: #EEEEEE;
+    font-family: "Roboto", Helvetica, sans-serif; 
+}
+
+div.container{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+header{
+    border-top: 8px solid #324E5A;
+    border-right: 8px solid #324E5A;
+    background: white;
+    height: 80px;
+}
+
+header h1{
+    margin-left: 25px;
+    color: #324E5A;
+}
+
+input, p, div.wide{
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+.wide{
+    width: 62%;
+    border-top: 3px solid #324E5A;
+    border-left: 3px solid #324E5A;
+    background: white;
+    height: 20px;
+}
+
+div.wide{
+    height: 155px;
+}
+
+p{
+    margin-bottom: 5px;
+}
+
+input[type="radio"]{
+    margin-right: 10px;
+}
+
+.second-radio-button{
+    margin-left: 20%;
+}
+
+#user-type{
+    margin-bottom: 10px;
+}
+
+div.wide label{
+    display: inline;
+}
+
+div.wide input{
+    display: inline;
+}
+
+div.wide div{
+    margin-top: 10px;
+    margin-left: -15px;
+}
+
+label, p{
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+a{
+    color: #136F63;
+    border-bottom: 1px solid #136F63;
+    margin-left: 30px;   
+}
+
+section.buttons{
+    margin-top: 10px;
+}
+
+#button-1{
+    margin-right: 25px;
+    border-bottom: 1px solid #FF5427;
+    border-right: 1px solid #FF5427;
+    color: #FF5427;
+    background: transparent;
+}
+
+#button-2{
+    border-bottom: 1px solid #136F63;
+    border-right: 1px solid #136F63; 
+    color: #136F63;
+    background: transparent; 
+}
+
+button{
+    padding: 10px 75px;
+    border: none;
+    font-weight: bold;
+}
+
+section.buttons{
+    width: 425px;
+    margin-left: 12%;
+}
+
+#button-1:hover{
+    background: #FF5427;
+    color: white;
+    cursor: pointer;
+}
+
+#button-2:hover{
+    background: #136F63;
+    color: white;
+    cursor: pointer;
+}

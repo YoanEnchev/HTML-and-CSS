@@ -1,0 +1,124 @@
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css");
+
+body{
+    background: #EEEEEE;
+    font-family: Tahoma, Helvetica, sans-serif;
+}
+
+body header{
+}
+
+div.container{
+    background: white;
+    width: 800px;
+    margin: 0 auto;
+}
+
+header p{
+    width: 740px;
+    font-size: 13px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header h1{
+    font-size: 24px;
+    text-align: center;
+}
+
+hr{
+    width: 740px;
+    border: none;
+    border-top: 1px solid #cecece;
+}
+
+input{
+    width: 280px;
+    height: 35px;
+    border: 1px solid #cecece;
+    padding-left: 15px;
+    border-radius: 5px;
+    display: block;
+}
+
+button{
+    display: block;
+}
+
+section{
+    width: 310px;
+    margin-left: 45px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+input{
+    margin-bottom: -5px;
+}
+
+input[type="checkbox"]{
+    width: 17px;
+    height: 17px;
+    position: relative;
+    bottom: -15px;
+}
+
+label{
+    position: relative;
+    top: 0px;
+    right: -25px;
+    color: #968D84;
+}
+
+a{
+    height: 18px;
+    display: inline-block;
+    margin-top: 15px;
+    position: relative;
+    top: -15px;
+    color: #BF4C5B;
+}
+
+a:hover{
+    color: #BF4C5B;
+    cursor: pointer;
+    border-bottom: 1px solid #BF4C5B;
+    padding-bottom: -10px;
+}
+
+button{
+    margin-top: 8px;
+    padding: 13px 23px;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #DDDDDD;
+    box-shadow: 1px 2px 6px 1px rgba(0,0,0,0.27);
+    font-weight: bold;
+}
+
+button:hover{
+    background: #AFDF67;
+    cursor: pointer;
+}
+
+#create-acount{
+    position: relative;
+    top: 10px;
+    margin-bottom: 50px;
+}
+
+i{
+    font-family: awesome;
+    padding: 3px 3px;
+    color: white;
+    background-color: #00FF00;
+    position: relative;
+    top: -25px;
+    right: -265px;
+    display: inline-block;
+}
+
+#password-1, #password-2, #password-3{
+    background: #FF0000;
+}

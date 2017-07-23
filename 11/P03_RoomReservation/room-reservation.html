@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Room Reservation</title>
+    <link rel="stylesheet" type="text/css" href="room-reservation.css">
+</head>
+<body>
+    <header>
+        <h1>Room Reservation</h1>
+    </header>
+
+    <main>
+        <article>
+            <h3>Basic Information</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin
+            blandit nec eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros
+            nec commodo.
+            </p>
+
+            <div class="search">
+                <h5>Search</h5>
+                <input class="search" />
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+        </article>
+        <div class="container">
+            <section class="personal-details">
+                <h3>Personal Details</h3>
+                <input placeholder="First Name" />
+                <input placeholder="Last Name" />
+                <input placeholder="Enter email" />
+            </section>
+
+            <section class="request-room">
+                <h3>Request a reservation</h3>
+
+                <div class="select-room">
+                    <p>Select a Room</p>
+                    <select>
+                        <option value="1">Room 1</option>
+                        <option value="2">Room 2</option>
+                        <option value="3">Room 3</option>
+                        <option value="4">Room 4</option>
+                    </select>
+                </div>
+
+                <div class="number-of-rooms">
+                    <p>Number of Rooms</p>
+                    <input placeholder="1" type="number" />
+                </div>
+
+                <div class="check-in">
+                    <p>Check-In:</p>
+                    <input type="date" placeholder="dd/mm/yyyy" />
+                </div>
+
+                <div class="check-out">
+                    <p>Check-out:</p>
+                    <input type="date" placeholder="dd/mm/yyyy" />
+                </div>
+            </section>
+        </div>
+        <button>Book Now</button>
+    </main>
+</body>
+</html>

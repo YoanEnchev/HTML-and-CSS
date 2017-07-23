@@ -1,0 +1,149 @@
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css");
+
+body{
+    background: #EBEBEB;
+}
+
+header{
+    width: 955px;
+    height: 75px;
+    color: #7CACDD;
+    font-size: 28px;
+    background: #F1F1F1;
+    border-bottom: 1px dashed #D8D8D8;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    line-height: 0px;
+    margin: 0 auto;
+}
+
+header h1{
+    margin-left: 10px;
+    font-weight: normal;
+    font-family: Tahoma, sans-serif;
+}
+
+main{
+    margin: 0 auto;
+    width: 955px;
+}
+
+main article p{
+    width: 770px;
+    display: inline-block;
+}
+
+div.search{
+    width: 180px;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+}
+
+div.search h5{
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+article h3{
+    margin-bottom: 0;
+}
+
+article i{
+    position: relative;
+    top: -19px;
+    right: -150px;
+}
+
+section.personal-details input{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    height: 25px;
+    padding-left: 5px;
+}
+
+section.personal-details{
+    display: inline-block;
+    width: 210px;
+    height: 180px;
+    vertical-align: top;
+    margin-right: 100px;
+}
+
+section.request-room{
+    width: 510px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.select-room{
+    width: 280px;
+    margin-top: -15px;
+    display: inline-block;
+}
+
+div.select-room select{
+    width: 280px;
+    margin-top: -10px;
+}
+
+div.select-room p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+div.number-of-rooms{
+    display: inline-block;
+}
+
+div.number-of-rooms p{
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    margin-top: -10px;
+}
+
+div.check-in{
+    display: inline-block;
+}
+
+div.check-out{
+    display: inline-block;
+}
+
+div.check-in p, div.check-out p{
+    margin-bottom: 5px;
+}
+
+div.check-in input, div.check-out input{
+    width: 215px;
+}
+
+button{
+    display: block;
+    padding: 10px 30px;
+    color: white;
+    background: #32A2E4;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 630px;
+    outline: none;
+}
+
+div.container{
+    border-top: 1px dashed #D8D8D8;
+    border-bottom: 1px dashed #D8D8D8;
+}
+
+section.request-room{
+    margin-bottom: -20px;
+}
+
+button:hover{
+    background: #3BBC96;
+    cursor: pointer;
+}

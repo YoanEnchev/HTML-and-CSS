@@ -1,0 +1,82 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+body{
+    padding: 30px 50px;
+}
+
+nav{
+    height: 50px;
+    color: #8BAEC2;
+    background: #384452;
+    line-height: 50px;
+    width: 1040px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding-right: 32px;
+    padding-left: 32px;
+    margin-right: 0px;
+}
+
+nav ul li:hover{
+    background: #3BBC96;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul{
+    list-style: none;
+    position: relative;
+    left: -40px;
+}
+
+nav i{
+    margin-right: 5px;
+}
+
+main{
+    width: 1040px;
+    height: 250px;
+    background: #EEEEEE;
+}
+
+main section h2{
+    color: #394C6D;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+input{
+    width: 166px;
+    height: 50px;
+    border: 1px solid #CDCDCD;
+    line-height: 50px;
+    padding-left: 14px;
+}
+
+section{
+    display: inline-block;
+    margin-right: 63px;
+}
+
+.first-on-row{
+    margin-left: 35px;
+}
+
+.second-row{
+    margin-top: 30px;
+}
+
+button{
+    padding: 15px 30px;
+    color: white;
+    text-transform: uppercase;
+    background: #3BBC96;
+    position: relative;
+    top: -50px;
+}
+
+button:hover{
+    cursor: pointer;
+}
