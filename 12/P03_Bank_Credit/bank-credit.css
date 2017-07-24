@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, serif;
+}
+
+table {
+    border: 1px solid #ccc;
+    width: 100%;
+    margin:0;
+    padding:0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table tr {
+    border: 2px solid #ccc;
+    padding: 5px;
+    background: #fff8b7;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 500px;
+}
+
+table th {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+
+
+ @media screen and (max-width: 600px) {
+     /* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+
+    table{
+        border: none;
+    }
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	table tr { 
+        border: 2px solid #CDCCC8;
+        margin-bottom: 10px;
+                background: #FEF5E6;
+    }
+	
+	table td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 2px solid #CDCCC8; 
+		position: relative;
+        text-align: right;
+        background: #FEF5E6;
+        --background-clip: content-box, padding-box;
+	}
+
+    tr td:last-child{
+        border-bottom: none;
+    }
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		left: 10px;
+		width: 45%;
+        text-align: left;
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+
+    table td::before{
+        content: attr(data-label);
+        float: left;
+    }	
+}
+
+
+
+
