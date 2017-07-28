@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0E1013;
+}
+
+.container {
+    width: 200px;
+    height: 100px;
+    padding-top: 200px;
+    margin: 0 auto;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    margin: 20px auto;
+    border-radius: 50px;
+    position: relative;
+    transition: all 2s;
+    position: relative;
+}
+
+@keyframes red-ball {
+    from{transform: translate(0px ,0)}
+    to {transform: translate(100px,0);}
+}
+
+@keyframes green-ball {
+    from{transform: translate(0px ,0)}
+    to {transform: translate(-100px,0);}
+}
+
+@keyframes blue-ball {
+    from{transform: translate(0px ,0)}
+    to {transform: translate(-110px,0);}
+}
+
+@keyframes yellow-ball {
+    from{transform: translate(0px ,0)}
+    to {transform: translate(110px,0);}
+}
+
+@keyframes dark-ball {
+    from{transform: translate(0px ,0)}
+    to {transform: translate(90px,0);}
+}
+@keyframes orange-ball {
+    from{transform: translate(0px ,0)}
+    to {transform: translate(120px,0);}
+}
+
+
+
+
+.container .ball:nth-child(1) {
+    background: #ff005d;
+    left: -100px;
+
+}
+
+.container .ball:nth-child(2) {
+    background: #35ff99;
+    left: -5px;
+}
+
+.container .ball:nth-child(3) {
+    background: #008597;;
+}
+
+.container .ball:nth-child(4) {
+    background: #ffcc00;
+    left: -75px;
+}
+
+.container .ball:nth-child(5) {
+    background: #2d3443;
+     left: -65px;
+}
+
+.container .ball:nth-child(6) {
+    background: #ff7c35;
+     left: -65px;
+}
+
+
+.container .ball:nth-child(7) {
+    background: #4d407c;;
+    left: -85px;
+}
+
+ body:hover .container .ball:nth-child(1){
+   animation: linear infinite;
+   animation-name: red-ball;
+   animation-duration: 0.5s;
+   animation-direction: alternate;
+}
+
+ body:hover .container .ball:nth-child(2){
+   animation: linear infinite;
+   animation-name: green-ball;
+   animation-duration: 0.4s;
+   animation-direction: alternate;
+}
+
+ body:hover .container .ball:nth-child(3){
+   animation: linear infinite;
+   animation-name: blue-ball;
+   animation-duration: 0.5s;
+   animation-direction: alternate;
+}
+
+ body:hover .container .ball:nth-child(4){
+   animation: linear infinite;
+   animation-name: yellow-ball;
+   animation-duration: 0.3s;
+   animation-direction: alternate;
+}
+
+ body:hover .container .ball:nth-child(5){
+   animation: linear infinite;
+   animation-name: dark-ball;
+   animation-duration: 0.5s;
+   animation-direction: alternate;
+}
+
+ body:hover .container .ball:nth-child(6){
+   animation: linear infinite;
+   animation-name: orange-ball;
+   animation-duration: 0.2s;
+   animation-direction: alternate;
+}
+
+ html:hover body .container .ball:nth-child(7){
+   animation: linear infinite;
+   animation-name: orange-ball;
+   animation-duration: 0.4s;
+   animation-direction: alternate;
+}
+
+
+
+
+
+
+
+
+
+
+
