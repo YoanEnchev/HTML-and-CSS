@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    background: #EAF0F1;
+}
+
+.container {
+    width: 650px;
+    font-family: 'Open Sans';
+    margin: 40px auto;
+    background: white;
+}
+
+header, footer {
+    background: #FF4F00;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px 5px 0 0;
+    height: 40px;
+    line-height: 40px;
+}
+
+header {
+    border-radius: 5px 5px 0 0;
+}
+
+label, input, textarea {
+    display: block;
+}
+
+input, textarea{
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding-left: -25px;
+    margin-left: 20px;
+}
+
+label {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+input {
+    height: 20px;
+}
+
+section {
+    display: inline-block;
+    width: 310px;
+    height: 450px;
+    vertical-align: top;
+}
+
+section.left {
+    margin-right: 20px;
+}
+
+span {
+    color: #FF4F00;
+}
+
+i {
+    background: #EDEDED;
+    text-align: center;
+    padding: 4.4px 4.5px;
+    position: relative;
+    bottom: -52.2px;
+    right: -20.5px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+footer {
+    border-radius: 0px 0px 5px 5px;
+}
+
+textarea {
+    height: 50px;
+}
+
+footer:hover {
+    background: #555555;
+    cursor: pointer;
+}
+
+textarea, input {
+    text-indent: 30px;
+}
+

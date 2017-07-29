@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Kreon:100,400,700|Open+Sans:400,700'); 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -18px;
+}
+
+body>header {
+    background-image: url(Resourses/img/header-background.jpg);
+    background-size: cover;
+    color: white;
+}
+
+header ul{
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;;
+    margin-right: 10px;
+    font-family: Kreon;
+    padding: 5px 20px;
+    margin-right: 15px;
+}
+
+header ul li p {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+header ul li h2 {
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+header section.intro {
+    margin-top: 150px;
+    margin-left: 20px;
+    padding-bottom: 80px;
+}
+
+header section.intro h2 {
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+header section.intro h1 {
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+section.portfolio {
+    background: #F4474F;
+    width: 50%;
+    display: inline-block;
+    height: 200px;
+    float: left;
+}
+
+section.results {
+    background: #31C7D8;
+    width: 50%;
+    display: inline-block;
+    height: 200px;
+}
+
+section.portfolio-results img {
+    float: left;
+    margin-top: 40px;
+}
+
+section.portfolio-results {
+    color: white;
+}
+
+section.portfolio-results article h2 {
+    text-transform: uppercase;
+    font-family: 'open Sans'
+}
+
+section.portfolio-results article p {
+    font-size: 13px;
+    font-weight: 100;
+    width: 450px;
+}
+
+section.online-marketing header {
+    margin-left: 20px;
+}
+
+section.online-marketing header h1 {
+    font-family: Kreon;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+section.online-marketing header p {
+   color: #B0B0B0; 
+   width: 500px;
+}
+
+section.online-marketing ul li {
+    display: inline-block;
+    width: 315px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+section.online-marketing ul li.middle {
+    border-left: 3px solid #E8E8E8;
+    border-right: 3px solid #E8E8E8;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+section.online-marketing ul li:last-child {
+    padding-right: 0px;
+}
+
+section.online-marketing ul {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+div.comment {
+    height: 100px;
+    background: #F4474F;
+    color: white;
+}
+
+div.comment h1 {
+    display: inline-block;
+    margin-top: 35px;
+    font-family: Kreon;
+    font-weight: 100;
+    margin-left: 100px;
+}
+
+div.comment button {
+    float: right;
+    margin-top: 35px;
+    background: white;
+    color: #F4474F;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    letter-spacing: 2px;
+    margin-right: 100px;
+    font-weight: 800;
+    outline: none;
+}
+
+footer {
+    text-align: center;
+}
+
+header ul li:hover {
+    background: #F4474F;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+div.comment button:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
