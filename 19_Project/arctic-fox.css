@@ -1,0 +1,90 @@
+body {
+    background: url(images/polar-foxes/wallpaper.jpg);
+    background-size: cover;
+    }
+
+body section{
+    display: inline-block;
+    width: 30%;
+    background: rgba(0, 0, 255, 0.4);
+    width: 47%;
+    margin-bottom: 10px;
+}
+
+body article {
+     padding: 50px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     color: white;
+     vertical-align: top;
+     width: 95%;
+}
+
+body article p {
+    font-size: 20px;
+    height: 100px;
+}
+
+.extra {
+    display: none;
+}
+
+body .first-section {
+    background: rgba(255, 255, 0, 0.6);
+}
+
+body .second-section {
+    background: rgba(255, 255, 0, 0.6);
+    position: relative;
+    top: -122px;
+}
+
+
+body .first-section article:nth-child(1) {
+    background: rgba(255, 0, 0, 0.4);;
+}
+
+body .first-section article:nth-child(2) {
+    background: rgba(255, 0, 255, 0.4);;
+}
+
+body .first-section article:nth-child(3) {
+    background: rgba(0, 0, 255, 0.4);
+    overflow: auto;
+}
+
+body .second-section article:nth-child(1) {
+    background: rgba(255, 255, 0, 0.4);
+}
+
+body .second-section article:nth-child(2) {
+    background: rgba(93, 63, 182, 0.4);
+}
+
+body .second-section article:nth-child(3) {
+    background: rgba(0, 255, 0, 0.4);
+}
+
+body .third-section article:nth-child(1) {
+    background: rgba(255, 6, 108, 0.4);
+}
+
+body .third-section article:nth-child(2) {
+    background: rgba(39, 131, 197, 0.4);
+}
+
+body .third-section article:nth-child(3) {
+    background: rgba(187, 255, 17, 0.4);
+}
+
+body .forth-section article:nth-child(1) {
+    background: rgba(255, 164, 255, 0.4);
+}
+
+body .forth-section article:nth-child(2) {
+    background: rgba(255, 44, 44, 0.4);
+}
+
+body .forth-section article:nth-child(3) {
+    background: rgba(0, 255, 0, 0.4);
+}
