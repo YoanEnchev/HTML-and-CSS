@@ -414,10 +414,32 @@ body article:nth-child(12):hover {
     }
 }
 
+@media screen and (max-width:1750px) {
+    div.content>article {
+        width: 37%;
+    }
+
+    div.comparison {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width:1900px) {
+    div.content>article {
+        width: 33%;
+    }
+
+    div.comparison {
+        width: 50%;
+    }
+
+}
+
 
 @media screen and (max-width:1654px) {
     div.content>article {
-        width: 45%;
+        width: 38%;
     }
 
     div.comparison {
@@ -428,7 +450,7 @@ body article:nth-child(12):hover {
 
 @media screen and (max-width:1536px) {
     div.content>article {
-        width: 43%;
+        width: 38%;
     }
 
     div.comparison {
@@ -443,7 +465,7 @@ body article:nth-child(12):hover {
     }
 
     div.comparison {
-        width: 51%;
+        width: 46%;
     }
 
 }
@@ -451,7 +473,7 @@ body article:nth-child(12):hover {
 
 @media screen and (max-width:1497px) {
     div.content>article {
-        width: 40%;
+        width: 37%;
     }
 
     div.comparison {
@@ -462,7 +484,7 @@ body article:nth-child(12):hover {
 
 @media screen and (max-width:1477px) {
     div.content>article {
-        width: 40%;
+        width: 35%;
     }
 
     div.comparison {
@@ -472,11 +494,11 @@ body article:nth-child(12):hover {
 
 @media screen and (max-width:1470px) {
     div.content>article {
-        width: 40%;
+        width: 35%;
     }
 
     div.comparison {
-        width: 54%;
+        width: 52%;
     }
 }
 
@@ -484,7 +506,7 @@ body article:nth-child(12):hover {
 
 @media screen and (max-width:1451px) {
     div.content>article {
-        width: 42%;
+        width: 35%;
     }
 
     div.comparison {
@@ -494,7 +516,7 @@ body article:nth-child(12):hover {
 
 @media screen and (max-width:1397px) {
     div.content>article {
-        width: 42%;
+        width: 35%;
     }
 
     div.comparison {
@@ -504,11 +526,11 @@ body article:nth-child(12):hover {
 
 @media screen and (max-width:1372px) {
     div.content>article {
-        width: 40%;
+        width: 38%;
     }
 
     div.comparison {
-        width: 57%;
+        width: 50%;
     }
 }
 

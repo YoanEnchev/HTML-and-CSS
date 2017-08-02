@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <title>Polar Foxes</title>
@@ -160,7 +160,7 @@
                     <img src="images/polar-foxes/ax_vs.jpg" />
                     <ul>
                         <li>Arctic adapted</li>
-                        <li>Bares extremely low temperatures</li>
+                        <li>Bares extremely low temperature</li>
                         <li>Less world population</li>
                         <li>Less geographic range</li>
                         <li>Loses in a fight against red fox</li>
@@ -182,42 +182,22 @@
     </section>
 
     <footer>
-        <div class="slider">
-            <div>
-                <img src="images/slider/snowy-owl.jpg" alt="Snowy Owl">
-            </div>
-            <div>
-                <img src="images/slider/Polar-bear.jpg" alt="Image Two">
-            </div>
-            <div>
-                <img src="images/Penguins.jpg" alt="Image Four">
-            </div>
+        <h1>Checkout Other Polar Animals</h1>
+        <div class="check-out">
+            <section class="first">
+                <img src="images/footer/snowy-owl.jpg" />
+                <h1>Snowy Owl</h1>
+            </section>
+            <section class="second">
+                <img src="images/footer/Polar-bear.jpg" />
+                <h1>Polar Bear</h1>
+            </section>
+
+            <section class="third">
+                <img src="images/footer/penguin.jpg" />
+                <h1>Penguin</h1>
+            </section>
         </div>
-        <ol class="slider-nav-thumbnails flex-control-paging">
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-        </ol>
     </footer>
-
-        <script>
-        $('.slider').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: true,
-            fade: true,
-            asNavFor:
-              '.slider-nav-thumbnails',
-        });
-
-        $('.slider-nav-thumbnails')
-        .slick({
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            asNavFor: '.slider',
-            dots: true,
-            focusOnSelect: true
-        });
-    </script>
 </body>
 </html>
