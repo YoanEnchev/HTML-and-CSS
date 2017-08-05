@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav div.logo {
+    display: inline-block;
+    margin-left: 40px;
+    position: relative;
+    top: -10px;
+    text-transform: lowercase;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline-block;
+    flex-grow: 1;
+}
+
+nav ul {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    color: #9F9F9F;
+    text-transform: uppercase;
+}
+
+header {
+    background-image: url(img/background-image.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    height: 550px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header p {
+    width: 50%;
+    text-align: center;
+}
+
+header button {
+    padding: 10px 35px;
+    background: #FFCD02;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+section.match-style {
+    display: flex;
+}
+
+section.match-style section {
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: Montserrat;
+}
+
+section.match-style section h1 {
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+section.match-style#first section:first-child {
+    background-image: url(img/headphone-yellow.png);
+}
+
+section.match-style#first section:nth-child(2) {
+    background-image: url(img/headphone-black.png);
+}
+
+section#first section:first-child {
+    background-color: #19CDFA;
+}
+
+section.categories {
+    background: #F6F7FB;
+    padding-top: 20px;
+}
+
+section.categories h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Montserrat;
+}
+
+section.categories div.articles {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+section.categories div.articles article {
+    background: white;
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 300px;
+    text-align: center;
+    font-family: Montserrat;
+    margin-bottom: 35px;
+}
+
+section.categories div.articles article p {
+    color: #19CDFA;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+section.categories div.articles article h3 {
+    color: #9F9F9F;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+section.match-style#second section:first-child {
+    background-image: url(img/showcase1.png);
+}
+
+section.match-style#second section:nth-child(2) {
+    background-image: url(img/showcase2.png);
+    background-color: #FC3598;
+}
+
+section.blog h1 {
+    text-align: center;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+section.blog div.articles {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+section.blog div.articles article {
+    width: 380px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: Montserrat;
+}
+
+section.blog div.articles article:first-child {
+    margin-left: 0px;
+}
+
+section.blog div.articles article:last-child {
+    margin-right: 0px;
+}
+
+section.blog div.articles article time{
+    color: #9F9F9F;
+    font-size: 15px;
+}
+
+section.blog div.articles article h3 {
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+section.blog div.articles article p {
+    color: #9F9F9F;
+}
+
+section.blog div.articles article a {
+    color: #19CDFA;
+    text-transform: uppercase;
+}
+
+nav ul li p {
+    min-width: 1px;
+    overflow: hidden;
+    display:inline-block;
+}
+
+nav ul li p:hover{
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+button:hover {
+    background: #19CDFA;
+    cursor: pointer;
+}

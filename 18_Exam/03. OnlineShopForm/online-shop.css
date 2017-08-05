@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    background: linear-gradient(to right, #000000, #9B9D9C);
+    font-family: Montserrat;
+    background-size: cover;
+}
+
+div.container {
+    background: #E7E7E7;
+    height: 430px;
+    width: 810px;
+    border-radius: 15px;
+    margin: 50px auto;
+}
+
+img {
+    height: 280px;
+    width: 195px;
+    float: left;
+    margin-top: 92.5px;
+    margin-left: 30px;
+}
+
+form {
+    color: #7D7D7B;
+    width: 750px;
+    margin-top: 20px;
+}
+
+section.text {
+    display: inline-block;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+input {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-right: 20px;
+    margin-bottom: 45px;
+    outline: none;
+    text-indent: 30px;
+    box-sizing: border-box;
+    width: 200px;
+}
+
+section.text-field {
+    display: inline-block;
+    width: 250px;
+}
+
+section.text-field i {
+    color: #38393E;
+    position: relative;
+    right: -22px;
+}
+
+section.text-field:first-child {
+    position: relative;
+    right: -5px;
+}
+
+button {
+    padding: 10px 40px;
+    color: white;
+    background: black;
+    text-transform: uppercase;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    position: relative;
+    right: -350px;
+}
